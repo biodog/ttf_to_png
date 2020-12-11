@@ -28,7 +28,9 @@ python3 ttf_2_png.py -f test.font
 2. 黄页88 http://b2b.huangye88.com/ 企业联系电话
 3. 中国土地市场网 https://www.landchina.com/
 4. 大众点评
-5. 起点中文网,作品字数
+5. 起点中文网,https://book.qidian.com/info/1013562540 作品字数
+6. 汽车之家
+7. 实习僧 https://www.shixiseng.com/intern/inn_zq8poavkguii 
 
 ## 解决字体反爬的常用思路:
 

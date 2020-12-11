@@ -15,11 +15,12 @@ os.makedirs(args.o, exist_ok=True)
 def uni_2_png(txt, font=args.f, img_size=args.size):
     img = Image.new('1', (img_size, img_size), 255)
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype(font, int(img_size * 0.9))
+    font = ImageFont.truetype(font, int(img_size * 0.7))
 
     txt = chr(txt)
     x, y = draw.textsize(txt, font=font)
     draw.text(((img_size - x) // 2, (img_size - y) // 2), txt, font=font, fill=0)
+    # draw.text((0,0), txt, font=font, fill=0)
     file_name = '%s/%s.png' % (args.o, i)
     img.save(file_name)
 
