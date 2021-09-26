@@ -4,8 +4,8 @@ from fontTools.ttLib.ttFont import TTFont
 import os
 
 parse = argparse.ArgumentParser(description="将ttf字体文件转为图片")
-parse.add_argument('-f', required=True,help="输入字体文件地址")
-parse.add_argument('-o', help="输出目录,默认为当前目录下imgs", default="imgs")
+parse.add_argument('-f', required=True,help="输入字体文件")
+parse.add_argument('-o', help="图片输出目录,默认为当前目录下imgs", default="imgs")
 parse.add_argument('-s', '--size', type=int, help="输出图片的像素大小", default=512)
 
 args = parse.parse_args()
