@@ -37,3 +37,5 @@ python3 ttf_2_png.py -f test.font
 1. 获取字体文件,通常为ttf文件,woff文件或base64编码的形式
 2. 查看字体文件内容,获取映射关系
 3. 替换源文件中的内容,实现解密
+
+## 喜欢请star！
